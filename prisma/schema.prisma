@@ -1,0 +1,24 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+enum ThingType {
+  BOOK
+  MOVIE
+  MUSIC
+}
+
+model Thing {
+  id Int @id @default(autoincrement()) // 自增索引
+  name String @db.VarChar(255) // 物件名称
+  description String? // 物件描述
+  type ThingType // 物件类型
+}
