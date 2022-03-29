@@ -7,6 +7,8 @@
     "doc": "docs"
   },
   "scripts": {
+    "build": "",
+    "dev": "",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,7 +22,8 @@
   },
   "homepage": "https://github.com/thankwsx/myelife#readme",
   "devDependencies": {
-    "prisma": "^3.11.1"
+    "prisma": "^3.11.1",
+    "vercel": "^24.0.1"
   },
   "dependencies": {
     "@prisma/client": "^3.11.1"
