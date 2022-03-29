@@ -1,7 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  title: 'MY E LIFE',
+  title: 'MY E LIFE 我的电子生活',
   base: '/docs/',
   outDir: '../public/docs',
   themeConfig: {
