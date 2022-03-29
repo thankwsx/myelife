@@ -7,8 +7,11 @@
     "doc": "docs"
   },
   "scripts": {
-    "build": "",
+    "build": "vitepress build docs",
     "dev": "",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -23,7 +26,8 @@
   "homepage": "https://github.com/thankwsx/myelife#readme",
   "devDependencies": {
     "prisma": "^3.11.1",
-    "vercel": "^24.0.1"
+    "vercel": "^24.0.1",
+    "vitepress": "^0.22.3"
   },
   "dependencies": {
     "@prisma/client": "^3.11.1"
