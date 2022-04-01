@@ -20,6 +20,8 @@ function getSidebar() {
     },{
         text: '开发笔记',
         children: [{
+            text: '2022年4月', link: '/202204'
+        }, {
             text: '2022年3月', link: '/202203'
         }]
     }]
